@@ -1,6 +1,7 @@
 FirstApp::Application.routes.draw do
-  get "user/new"
-  
+
+  resources :users
+
   match '/signup', :to => 'user#new'
 
   match '/contact', :to => 'pages#contact'
