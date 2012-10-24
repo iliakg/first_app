@@ -8,6 +8,7 @@ gem 'rails', '3.2.8'
 group :development, :test do
   gem 'sqlite3'
   gem 'annotate'
+  gem 'gravatar_image_tag' 
 end
 
 group :production do
