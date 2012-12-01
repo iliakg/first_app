@@ -10,5 +10,5 @@
  *
  *= require_self
  *= require screen
- *= require_tree
+ *= require_tree .
  */
