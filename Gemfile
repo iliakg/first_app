@@ -4,11 +4,11 @@ gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
+gem 'gravatar_image_tag' 
 
 group :development, :test do
   gem 'sqlite3'
   gem 'annotate'
-  gem 'gravatar_image_tag' 
 end
 
 group :production do
