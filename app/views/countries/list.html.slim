@@ -1,0 +1,5 @@
+ul
+	- @list.each do |country|
+		li 
+			span = link_to country.name, country_path(country)
+			span = link_to " link", country 	

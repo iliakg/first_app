@@ -5,6 +5,7 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 gem 'gravatar_image_tag' 
+gem 'slim'
 
 group :development, :test do
   gem 'sqlite3'

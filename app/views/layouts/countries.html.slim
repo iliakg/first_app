@@ -1,0 +1,9 @@
+html
+  head
+    title = title
+    
+    = csrf_meta_tag
+    = stylesheet_link_tag 'countries', :media => 'screen' 
+  body
+    div.container
+      = yield
